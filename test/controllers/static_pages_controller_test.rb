@@ -5,7 +5,7 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   test "should get home" do
     get static_pages_home_url
     assert_response :success
-    assert_select "title", "Home | Bets bolão do brasieirão"
+    assert_select "title", "Bets bolão do brasieirão"
   end
 
   test "should get ajuda" do
